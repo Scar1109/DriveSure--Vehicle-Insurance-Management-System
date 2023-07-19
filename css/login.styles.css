@@ -1,0 +1,80 @@
+.greeting {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 40px 0px 30px;
+    color: rgb(79, 79, 79);
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginForm h4,
+.loginForm h5 {
+    text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.loginForm fieldset {
+    border: 2px solid #ccc;
+    padding: 20px 40px 40px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 40px;
+
+}
+
+.loginForm input[type=text],
+.loginForm input[type=password] {
+    width: 100%;
+    padding: 15px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+    font-size: 16px;
+    margin: 20px 0px 20px 0px;
+}
+
+.loginForm input[type=password]{
+    margin-top: 5px;
+}
+
+.loginForm input[type=submit] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333333;
+}
+
+.loginForm h5.registerTxt{
+    margin-top: -12px;
+}
+
+.loginForm .login-lable{
+    font-size: 18px;
+}
+
+.loginForm span.terms-lable{
+    font-size: 14px;
+}
+
+.loginForm .customer{
+    font-size: 17px;
+}
+
+.loginForm .registerTxt{
+    font-size: 15px;
+}
+

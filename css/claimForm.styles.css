@@ -1,0 +1,152 @@
+body{
+    font-family: Arial, sans-serif;
+    background-image: url("../images/MotorAccident-1024x576.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  
+  
+  .container {
+    max-width: 500px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  
+  .container h2 {
+  
+    margin-bottom: 20px;
+    text-align: center;
+    color: #066bf0;
+  }
+  
+  .container form {
+    margin-bottom: 20px;
+    margin-right: 15px;
+  }
+  
+  .container label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  
+  }
+  .container input[type="text"],
+  .container input[type="email"],
+  .container input[type="tel"],
+  .container textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #52caee;
+    border-radius: 4px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    transition: border-color 0.3s ease;
+    
+  }
+  .container input[type="text"]:focus,
+  .container input[type="email"]:focus,
+  .container input[type="tel"]:focus,
+  .container textarea:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  .container select {
+  
+    width: 507px;
+    padding: 10px;
+    border: 1px solid #52caee;
+    border-radius: 4px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    transition: border-color 0.3s ease;
+  
+  }
+  
+  .container select:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  .container input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #52caee;
+    border-radius: 4px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    transition: border-color 0.3s ease;
+  }
+  
+  .container input[type="date"]:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  .container input[type="time"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #52caee;
+    border-radius: 4px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    transition: border-color 0.3s ease;
+  }
+  
+  .container input[type="time"]:focus {
+    outline: none;
+    background-color: #007bff;
+  
+  }
+  
+  
+  .custom-file-upload {
+    width: 100%;
+    display: inline-block;
+    padding: 6px 10px;
+    cursor: pointer;
+    background-color: #fff;
+    border: 1px solid #52caee;
+    color: rgb(138, 135, 135);
+    border-radius: 4px;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+  
+  }
+  
+  .custom-file-upload:hover {
+    background-color: #021224;
+  }
+  
+  
+  
+  .buttons {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-around;
+  }
+  
+  .container input[type="submit"],
+  .container input[type="button"] {
+    padding: 10px 20px;
+    background-color: #0056b3;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .container input[type="submit"]:hover,
+  .container input[type="button"]:hover {
+    background-color: #012f5f;
+  }

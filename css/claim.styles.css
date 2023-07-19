@@ -1,0 +1,46 @@
+.body-image {
+    width: 100%;
+
+}
+
+.descrip {
+    position: absolute;
+    height: 90px;
+    width: 100%;
+    margin-top: -190px;
+    background-color: rgb(44, 173, 233);
+    text-align: center;
+
+}
+
+.claim-head {
+    font-weight: bold;
+    color: white;
+    font-family: Helvetica, Arial, sans-serif;
+
+}
+
+.claim-btn {
+    margin: 20px;
+    height: 40px;
+    width: 150px;
+    background-color: #1d64c2;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.claim-btn a{
+    text-decoration: none;
+    color: white;
+}
+
+.claim-btn:hover {
+    background-color: #00295f;
+}
+
+.btn-div{
+    display: flex;
+    justify-content:center ;
+}

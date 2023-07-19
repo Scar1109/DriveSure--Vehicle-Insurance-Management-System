@@ -1,0 +1,100 @@
+body{
+    background-image:url("../images/Background2.jpg")
+    }
+    
+    .renewpolicysec{
+    background-image:url("../images/1686768.jpg");
+    padding: 40px;
+    };
+    
+    .center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #sec{
+    height: 20vh;
+    background-color: rgb(93, 93, 101);
+    };
+    
+    .abc.image1{
+    float:right;
+    }
+
+    div.policy{
+        width:100%;
+        margin:auto;
+        padding:20px 200px;
+        background-color: #149ad5;
+        font-size:20px;
+        font-family:verdana;
+        color:rgb(241, 237, 237);
+        
+    }
+    
+    #yesButton{
+        background-color: #020405;
+                width: 10%;
+                height: 40px;
+                border: none;
+                color: white;
+                padding: 10px 20px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                cursor: pointer;
+                margin:auto ;
+    }
+
+    .policy button{
+    width: 100%;
+    color: white;
+    background-color: #4CAF50;
+    border:none ;
+    cursor: pointer;
+    height:25px ;
+    }
+    
+    .table1{
+        width: 100%;
+        padding: 20px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+
+    .policyId{
+        padding: 30px 0px 0px 300px;
+    }
+
+    .policyId input[type=text]{
+        padding: 6px;
+    font-size: 17px;
+    border: none;
+    border-radius: 10px 0px 0px 10px;
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: #ebf3ff;
+    }
+
+    .table1{
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc; 
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+    
+    .tb tr th{
+        width: 150px;
+        padding-top: 10px;
+    }
+
+    .payment p{
+        padding: 20px;
+    }

@@ -1,0 +1,99 @@
+/*Sign up form*/
+
+.signup-container {
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 10px 20% 50px;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-field input[type="text"],
+.signup-field input[type="email"],
+.signup-field input[type="date"],
+.signup-field input[type="tel"],
+.signup-field textarea,
+.signup-field input[type="password"] {
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    width: 80%;
+    font-size: 16px;
+}
+.signup-field input[type="radio"]{
+    margin-top: 11px;
+}
+
+.signup-field label {
+    display: inline-block;
+    width: 150px;
+    margin-left: 5px;
+    color: rgb(79, 79, 79);
+    font-size: 16px;
+}
+
+.signup-container fieldset {
+    border-radius: 10px;
+    padding: 20px 40px 20px 40px;
+}
+
+.signup-field input[type="submit"]:enabled,
+.signup-field input[type="submit"]:disabled {
+    width: 300px;
+    padding: 10px;
+    background-color: #1d64c2;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.signup-field input[type="submit"]:disabled {
+    cursor: not-allowed;
+}
+
+.signup-container .inline-input{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.signup-container .inline-input .inputs{
+    margin-left: 5%;
+    width: 50%;
+}
+
+.signup-field input[type="checkbox"]{
+    margin: 12px 0px 12px 10%;
+}
+
+.signup-container .Address{
+    width: 107.5%;
+    margin: 0px 5% 10px;
+}
+
+.signup-container span{
+    font-family: Helvetica, Arial, sans-serif;
+    padding: 20px 0px 30px;
+
+}
+
+.greeting{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 40px 0px 30px;
+    color: rgb(79, 79, 79);
+}
+
+/*Log in button*/
+
+.signup-container .id-login .have-acc{
+    font-size: 20px;
+}
+

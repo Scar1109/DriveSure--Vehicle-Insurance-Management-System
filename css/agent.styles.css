@@ -1,0 +1,124 @@
+/* Agentclaim.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+  }
+  
+  .container {
+      
+      max-width: 800px;
+      margin:60px;
+      padding: 30px;
+      background-color: #8792a1;
+      box-shadow: 0 0 30px rgba(0, 0, 0, 0.9);
+  }
+  
+  h1 {
+      font-family:Perpetua;
+      text-shadow: 4px 4px 60px black;
+      text-align: center;
+      margin-bottom: 25px;
+  }
+  
+  h2{
+      font-family:Perpetua;
+      text-shadow: 4px 4px 50px black;
+      text-align: left;
+      margin-bottom: 25px;
+      
+  }
+  
+  h3{
+       font-family:Perpetua;
+       text-shadow: 4px 4px 20px black;
+  }
+  
+  .count {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+  
+  .claim-count,
+  .inquiry-count {
+    text-align: center;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 7px;
+  }
+  
+  .claim-count h3,
+  .inquiry-count h3 {
+    margin: 0;
+  }
+  
+  .claim-count p,
+  .inquiry-count p {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  table {
+      width: 100%;
+      border-collapse: collapse;
+  }
+  
+   tr:hover{
+          background-color:#0D98BA ;
+      }
+  th,
+  td {
+  
+    padding: 10px;
+    text-align: center;
+    border-bottom: 4px solid black;
+  }
+  
+   th {
+    background-color: #e6f2ff;
+  }
+  /*
+  td {
+    background-color: #fff;
+  }/*/
+  
+   tr:hover{
+          background-color:#1891d1;
+      }
+      
+  button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  button.delete {
+    background-color: #e53935;
+    color: #fff;
+  }
+  
+  button.approve {
+    background-color: #2196f3;
+    color: #fff;
+  }
+  
+  button:disabled {
+    cursor: not-allowed;
+    opacity: 0.6;
+  }
+  
+  input[type="checkbox"] {
+    margin-top: 5px;
+  }
+
+.logOut{
+      float: right;
+  }
+
+  .logOut button a{
+    text-decoration: none;
+  }

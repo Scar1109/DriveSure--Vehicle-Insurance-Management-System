@@ -1,0 +1,107 @@
+.main-heading{
+    position: absolute;
+    text-align: center;
+    font-size: 25px;
+    height: 120px;
+    width: 100%;
+    background-color:rgb(103, 118, 134);
+    color: black;
+    margin-top: -600px;
+    padding-bottom:10px;
+}
+
+.heading2{
+    position: absolute;
+    text-align: center;
+    font-size: 25px;
+    height: 40px;
+    width: 100%;
+    background-color:rgb(103, 118, 134);
+    color: black;
+    font-weight: bold;
+    margin-top: -400px;
+
+
+}
+
+.firstPage-image{
+    width: 100%;
+    height: 700px;
+    
+}
+
+.head-image{
+    max-height: 40px;
+    width: auto;
+    padding-right: 10px;
+}
+
+
+.description{
+    color:rgb(0, 33, 94);
+    font-size:25px ;
+    font-weight: bold;
+}
+
+
+
+.payButton{
+    border: 10px;
+    background-color: rgb(15, 121, 207);
+    height: 40px;
+    width: 120px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-weight: bolder;
+    border-radius: 15px;
+   
+
+}
+
+.payButton a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.bank-box{
+    height: 400px;
+    width: 100%;
+  
+  
+    background-color: rgb(147, 203, 238);
+    display: block;
+    color:rgb(0, 33, 94);
+    font-size: 17px;
+   
+
+}
+
+.bank-types{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bank-image{
+    padding: 15px 30px;
+}
+
+.bank-details{
+    display: flex;
+    justify-content: space-between;
+    line-height: 30px;
+    color:rgb(77, 75, 75);
+    padding: 30px 30px 0px;
+    
+}
+
+.bank-details_{
+
+    padding-left: 100px;
+}
+
+.bank-box .bankHeading{
+    padding: 10px 10px 0px;
+}

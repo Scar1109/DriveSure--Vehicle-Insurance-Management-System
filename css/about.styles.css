@@ -1,0 +1,97 @@
+body{
+  background-color: aliceblue;
+  
+  }
+  
+  
+  
+  .aboutdiv{
+      background-color:rgb(27, 98, 142);
+      height:45vh ;
+      position: relative;
+  
+  }
+  
+  .aboutdiv img{
+      width:100%;
+      height:100%; 
+      left:50%;
+  }
+  .aboutdiv p{
+       color: #edecec;
+       position: absolute;
+       top: 25%;
+       left:10%;
+       font-size: 40px;
+  
+  }
+  
+  
+  
+  .newupdates {
+    position: relative;
+    height: 50vh;
+    background-color: rgb(214, 229, 234);
+    overflow: hidden;
+  }
+  
+  .newupdates p {
+    font-size: 50px;
+    left: 30%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .newupdates .update1{
+  
+    height: 300px;
+     width: auto; 
+     transition: all 0.3s ease-in-out;
+     margin-bottom:10px ;
+  }
+  
+  
+  .newupdates .update1:hover{
+  
+    transform: scale(1.2);
+  }
+  
+  .newupdates .update2{
+  
+    height: 300px;
+     width: auto; 
+     transition: all 0.3s ease-in-out;
+    margin-bottom:10px ;
+  }
+  
+  
+  .newupdates .update2:hover{
+  
+    transform: scale(1.2);
+  }
+  
+  .newupdates .update3{
+  
+    height: 300px;
+     width: auto; 
+    transition: all 0.3s ease-in-out;
+    float:right ;
+    margin-bottom:10px ;
+  }
+  
+  
+  .newupdates .update3:hover{
+  
+    transform: scale(1.2);
+  }
+  
+  .strength {
+      display: flex;
+      align-items: flex-start;
+    }
+  
+    .strength-list {
+      list-style-type: none;
+      padding: 0;
+    }

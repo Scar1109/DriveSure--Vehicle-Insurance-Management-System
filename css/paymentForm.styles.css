@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  
+  
+  .container {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  
+  
+  
+  .form-div {
+    height: 700px;
+    width: 470px;
+    background-color: white;
+    border-width: 3px;
+    border-color: rgb(49, 128, 231);
+    border-style: solid;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px rgb(49, 128, 231);
+  }
+  
+  
+  
+  .container h2 {
+    color: rgb(3, 3, 54);
+  }
+  
+  
+  
+  .payment-form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  
+  
+  .container label {
+    display: block;
+    margin-top: 10px;
+    float: left;
+    font-weight: bold;
+  }
+  
+  
+  .visa {
+    float: left;
+  
+  }
+  
+  
+  
+  .master {
+    float: right;
+    margin-left: 30px;
+    
+  
+  }
+  
+  
+  
+  .container input[type="text"],
+  .container select {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+    background-color: rgb(216, 213, 213);
+    border-color: rgb(216, 213, 213);
+    border-radius: 10px;
+  }
+  
+  
+  
+  .buttons {
+    margin-top: 20px;
+  
+  }
+  
+  
+  
+  .btn {
+    height: 35px;
+    width: 80px;
+    color: white;
+    background-color: royalblue;
+    border: none;
+    border-radius: 10px;
+    font-size: 14px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+  }

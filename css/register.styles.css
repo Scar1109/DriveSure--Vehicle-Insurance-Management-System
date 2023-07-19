@@ -1,0 +1,111 @@
+.vehicle-form input[type=text],
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.vehicle-form input[type=date],
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.vehicle-form input[type=number],
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.vehicle-form input[type=month],
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.vehicle-form .f1 {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.vehicle-form .f2 {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.vehicle-form .form {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.vehicle-form .btn_1,
+.vehicle-form .btn_2 {
+    width: 500px;
+    padding: 10px;
+    background-color: #1d64c2;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-right: 45px;
+    margin-left: 45px;
+}
+
+.vehicle-form .btn_2 {
+    float: inline-start;
+}
+
+.vehicle-form .btn_1:hover {
+    background-color: #002960;
+}
+
+.vehicle-form .btn_2:hover {
+    background-color: #002960;
+}
+
+.vehicle-form .btn_1 {
+    float: right;
+}
+
+.vehicle-form .btn_2 {
+    float: left;
+}
+
+.file-upload {
+    width: 97%;
+    display: inline-block;
+    padding: 12px 20px;
+    margin: 8px 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    color: rgb(138, 135, 135);
+    border-radius: 4px;
+    font-size: 14px;
+}

@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+
+body {
+    background-color: #e6f2ff;
+    margin: 0px;
+    font-family: 'Poppins',Verdana, sans-serif;
+}
+
+/*Header*/
+.headSquare {
+    height: 90px;
+    width: 100%;
+    background-color: #1891D1;
+    margin: 0px 0px 0px;
+}
+
+.logo {
+    height: 65px;
+    width: auto;
+    display: block;
+    padding-top: 0px;
+    padding-left: 20px;
+    margin-top: 10px;
+    float: left;
+}
+
+.logInText{
+    float: right;
+    color: #002960;
+    text-decoration: none;
+    margin: 20px 10px 0px 0px;
+}
+
+.logIn {
+    float: right;
+    color: #002960;
+    margin: 27px 20px 0px 0px;
+}
+
+.loggedInUserText {
+    float: right;
+    color: #002960;
+    text-decoration: none;
+    margin: 20px 10px 0px 0px;
+}
+
+.loggedInUser {
+    float: right;
+    color: #002960;
+    margin: 27px 20px 0px 0px;
+}
+
+.user-dropdown {
+    float:right;
+    position: relative;
+}
+
+.user-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #1891d1;
+    min-width: 140px;
+    z-index: 1;
+    top: 100%;
+    right: 0;
+    margin-right: 10px;
+    font-size: 13px;
+}
+
+.user-dropdown-content a {
+    color: black;
+    padding: 12px 14px;
+    text-decoration: none;
+    display: block;
+}
+
+.user-dropdown:hover .user-dropdown-content {
+    display: block;
+}
+
+.user-dropdown-content a:hover{
+    background-color: #002960;
+    color: white;
+}
+
+
+
+/*Navigation bar*/
+
+.headerNav {
+    list-style-type: none;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #1D64C2;
+    margin: 0px;
+}
+
+.headerNav li {
+    float: left;
+}
+
+.headerNav li a {
+    display:block;
+    color: white;
+    text-align: left;
+    padding: 16px 16px;
+    text-decoration: none;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.headerNav li a:hover:not(.active), .dropdown:hover .dropbtn {
+    background-color: #002960;
+}
+
+.headerNav .active {
+    background-color: #002960;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #1d64c2;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.headerNav .search-container {
+    float: right;
+    margin-right: 5px;
+    margin-top: 8px;
+
+}
+
+.headerNav .search-container input[type=text]{
+    padding: 6px;
+    font-size: 17px;
+    border: none;
+    border-radius: 10px 0px 0px 10px;
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: #ebf3ff;
+}
+
+.headerNav .search-container button{
+    float: right;
+    padding: 6px 10px;
+    margin-right: 16px;
+    background: #D9E8FC;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.headerNav .search-container button:hover {
+    background: #8792A1;
+}
+
+/* Footer Styles */
+
+.footer {
+    background-color: #1d64c2;
+    padding: 30px 0;
+}
+
+.footer-container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+.footer-col {
+    width: 25%;
+    padding: 0 35px;
+    margin-bottom: 30px;
+}
+
+.footer-col h4 {
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.footer-col ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-col ul li {
+    margin-bottom: 5px;
+    margin-left: 3px;
+}
+
+.footer-col ul li a {
+    text-decoration:none;
+    color: white;
+    font-size: 15px;
+    font-family: 'Be Vietnam', sans-serif;
+}
+
+.footer-col ul li a:hover {
+    color: #002960;
+    flex-basis: 25%;
+    margin-bottom: 0;
+}
+
+.social-links {
+    margin-top: 20px;
+}
+
+.social-links a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: #002960;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    margin-right: 10px;
+}
+
+.follow-us {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 0px;
+}

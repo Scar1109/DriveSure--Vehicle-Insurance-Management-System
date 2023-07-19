@@ -1,0 +1,148 @@
+
+   h1{
+      font-family:Perpetua;
+      text-align:center;
+      font-size:60px;
+   }
+
+
+   body {
+      
+
+   font-family: Arial, sans-serif;
+   margin: 0;
+   padding: 0;
+   }
+
+   .container {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 20px;
+   }
+
+   .banner {
+      color:#002960;
+   font-size: 28px;
+   text-align: center;
+   }
+
+   .bgimg {
+   background-image: url("../images/headoffice.jpg");
+   background-size: cover;
+   background-position: center;
+   height: 400px;
+   position: relative;
+   }
+
+   .overlay {
+   background-color: rgba(0, 0, 0, 0.6);
+   height: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   }
+
+   .imgtext {
+      font-family:Georgia;
+   color: white;
+   font-size: 24px;
+   text-align: center;
+   padding: 20px;
+   }
+
+   .contact-info {
+   text-align:left;
+   background-color: #f2f2f2;
+   padding: 25px;
+   }
+
+   .deco {
+   text-shadow: 5px 5px 10px black;
+   font-size: 27px;
+   text-align: center;
+   text-decoration: underline;
+   }
+
+   .shade {
+   text-align:center;
+   font-size: 16px;
+   margin: 20px;
+   }
+
+   .cntactinfopara{
+      font-size:19px;
+      text-align:center;
+      font-family:Fantasy;
+      text-decoration-color: rgba(0, 255, 0, 0.5);
+   }
+
+   .fab{
+      color:white;
+      text-align:center;
+      font-size:26px;
+      font-family:Courier New;
+      text-shadow: 5px 5px 10px black;
+      
+   }
+
+   .btncls {
+   padding: 10px 20px;
+   background-color: blue;
+   color: white;
+   border: 1px;
+   border-radius: 7px;
+   font-size: 16px;
+   cursor: pointer;
+   }
+
+   .btncls:hover {
+   background-color: #0056b3;
+   }
+
+   .btncls:focus {
+   outline: none;
+   box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.3);
+   }
+
+
+
+   .form-container {
+      color:black;
+      font-family:Georgia;
+      outline:black;
+      text-align:center;
+   margin: 20px;
+   padding: 20px;
+   background-image: url("../images/pic.jpg");
+   border: 1px solid #ccc;
+   border-radius: 5px;
+   }
+
+   .faq-container {
+
+   max-width: 800px;
+   margin: 0 auto;
+   text-align: left;
+   }
+
+   .faq-container ul {
+   list-style-type: disc;
+   padding: 0;
+   margin: 0;
+   }
+
+   .faq-container li {
+   margin-bottom: 20px;
+   }
+
+   .faq-container p {
+   margin: 0;
+   color: #555;
+   line-height: 1.5;
+   }
+
+   .faq-container strong {
+   font-weight: bold;
+   }
+

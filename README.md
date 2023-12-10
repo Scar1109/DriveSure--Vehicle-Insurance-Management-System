@@ -1,7 +1,7 @@
 # DriveSure🚗
 
 <img align="left" alt="Coding" width="450" src="https://i.ibb.co/Wn7s92m/Screenshot-2023-07-19-172911.png">
-<p>Welcome to the Vehicle Insurance Management System repository! This GitHub project showcases the comprehensive web application developed as part of our first-year, first-semester academic endeavor at SLIIT.</p>
+<p>Welcome to the Vehicle Insurance Management System repository! This GitHub project showcases the comprehensive web application developed as part of our first-year, second-semester academic endeavor at SLIIT.</p>
 
 <p>The Vehicle Insurance Management System is an innovative and user-friendly web application designed to streamline automobile insurance operations for insurance providers and policyholders. With a focus on simplicity, efficiency, and data security, this project aims to revolutionize the insurance industry's policy management and claims processing procedures.</p>
 

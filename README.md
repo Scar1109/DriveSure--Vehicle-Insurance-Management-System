@@ -38,7 +38,7 @@ Thank you for visiting our repository, and we look forward to your active involv
 <p align="left">
 <a href="https://linkedin.com/in/kaveendinethma" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="kaveendinethma" height="30" width="40" /></a>
 <a href="https://fb.com/kaveen dinethma" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="kaveen dinethma" height="30" width="40" /></a>
-<a href="https://instagram.com/scar_dineth" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="scar_dineth" height="30" width="40" /></a>
+<a href="https://www.instagram.com/kavee_dineth/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="scar_dineth" height="30" width="40" /></a>
 </p>
 
 #VehicleInsurance #InsuranceManagement #SLIIT #DriveSure #UniversityProject #SoftwareDevelopment #WebApplication #OpenSource #GitHubRepo #StudentProjects #TechnologyInnovation #SoftwareEngineering #NodeJS #ReactJS #MongoDB #Heroku #JSONWebTokens #Collaboration #TechnologyForGood
